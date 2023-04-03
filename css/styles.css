@@ -260,6 +260,14 @@ img {
 .features-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.features-icon-container {
+  margin-bottom: 8px;
+}
+.features-icon {
+  width: 64px;
+  height: 64px;
+}
+
 .list-title {
   margin-bottom: 8px;
   font-weight: 500;
