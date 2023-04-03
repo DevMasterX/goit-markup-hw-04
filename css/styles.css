@@ -58,7 +58,7 @@ img {
 .container {
   /* max-width: 1158px; */
   width: 1158px;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 
   padding: 0 15px;
   margin: 0 auto;
@@ -67,6 +67,7 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  outline: 1px solid orange;
 }
 /* ---------------------------header */
 .flex-header {
@@ -188,9 +189,20 @@ img {
 
 .main-section {
   text-align: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--second-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-heading {
