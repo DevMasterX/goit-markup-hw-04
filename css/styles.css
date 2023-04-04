@@ -362,7 +362,30 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-/* ----------------------FOOTER */
+
+/* ----------------------------------CUSTOMERS  */
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+/* -----------------------------------FOOTER */
 .footer {
   padding: 100px 0;
   background-color: var(--second-color);
