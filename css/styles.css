@@ -385,8 +385,13 @@ img {
   align-items: center;
   height: 100%;
   width: 100%;
-  border: 1px solid #8e8f99;
+  border: 1px solid currentColor;
+  color: #8e8f99;
   border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+  color: #404bbf;
 }
 
 .customers-icon {
@@ -398,9 +403,11 @@ img {
   padding: 100px 0;
   background-color: var(--second-color);
 }
+.footer-wrap {
+  margin-right: 120px;
+}
 .footer .container {
   display: flex;
-  gap: 120px;
 }
 .footer-logo {
   padding-top: 0;
@@ -418,7 +425,7 @@ img {
 .footer-web {
   color: #f4f4fd;
 }
-.soc-title {
+.soc-text {
   margin-bottom: 16px;
   font-style: normal;
   font-weight: 500;
@@ -446,6 +453,12 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
 }
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #404bbf;
+}
+
 /* ----------------------PORTFOLIO */
 .portfolio-section {
   padding-top: 96px;
@@ -517,13 +530,13 @@ img {
   color: var(--primary-text-color);
 }
 .services-link {
+  display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.services-link:hover .card-text {
-  border: 1px solid #f4f4fd;
-  border-top: none;
+.services-link:hover,
+.services-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -534,9 +547,9 @@ img {
 .link {
   text-decoration: none;
 }
-.link:hover {
+/* .link:hover {
   color: #404bbf;
-}
+} */
 
 /* ------------------visually-hidden  */
 .visually-hidden {
